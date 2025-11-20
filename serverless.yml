@@ -7,7 +7,7 @@ provider:
   memorySize: 1024
   timeout: 30
   iam:
-    role: arn:aws:iam::606646193182:role/LabRole
+    role: arn:aws:iam::611279748182:role/LabRole
 
 functions:
   scrape_igp:
@@ -34,3 +34,4 @@ resources:
           - AttributeName: id
             KeyType: HASH
         BillingMode: PAY_PER_REQUEST
+
